@@ -1,6 +1,9 @@
 
-def set_bits(decimal):
-  binary_version = [];
-  while decimal > 1:
-    binary_version.append(deicimal % 2)
-  return binary_version
+def bit_set(decimal):
+    binary = []
+    while decimal > 0:
+        binary.append(decimal % 2)
+        decimal = decimal // 2
+    return binary
+
+print(bit_set(5))
