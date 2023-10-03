@@ -12,4 +12,8 @@ def robustness(x, y):
 if __name__ == '__main__':
     x = int(input("Give me an x: "));
     y = int(input('Give me a y: '));
+<<<<<<< HEAD
     print(f"Here is the output of the function with your specifications: {robustness(x, y)}")
+=======
+    print(f"Here is the output of the function with your specifications: {robustness(x, y)}")
+>>>>>>> 0bcb0757c05c7fe3ad3f54fe6f43b6efad219806
