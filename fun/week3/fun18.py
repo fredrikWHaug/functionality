@@ -13,3 +13,6 @@ if __name__ == '__main__':
     x = int(input("Give me an x: "));
     y = int(input('Give me a y: '));
     print(f"Here is the output of the function with your specifications: {robustness(x, y)}")
+    print(f"Here is the output of the function with your specifications: {robustness(x, y)}")
+    print(f"Here is the output of the function with your specifications: {robustness(x, y)}")
+
