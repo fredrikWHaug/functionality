@@ -1,13 +1,13 @@
 
 # class definition
 class Point:
-    def __init__(self,x, y):
+    def __init__(self, x, y):
         self.x = x
         self.y = y
 
 # function decleration to locate a point
 def where_is(point):
-    match Point:
+    match point:
         case Point(x=0, y=0):
             print("Origin")
         case Point(x=0, y=y):
@@ -21,5 +21,5 @@ def where_is(point):
     
 # main execution
 if __name__ == '__main__':
-    p1 = Point(3,5)
+    p1 = Point(1,0)
     where_is(p1)
