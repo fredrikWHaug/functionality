@@ -8,7 +8,8 @@ def fib(n):
         a, b = b, a+b
     return result
 
-# main execution
+# main ex
 if __name__ == '__main__':
-    fib_list = fib(1000)
+    fib_list = fib(10)
     print(fib_list)
+    
