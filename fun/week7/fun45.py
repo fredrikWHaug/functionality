@@ -1,11 +1,9 @@
 
-def mario(height):
-    block = ""
-    for i in range(height):
-        block += "#"
-    for i in range(height):
-        print(block)
-        block = block - "#"
+def staircase():
+    hashes = "#"
+    for i in range(3):
+        print(hashes)
+        hashes = hashes + "#"
 
 if __name__ == '__main__':
-    mario(8)
+    staircase()
