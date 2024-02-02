@@ -19,3 +19,7 @@ def main():
     target = 2
     index = binary_search(target, my_list)
     print(index)
+
+# main execution
+if __name__ == '__main__':
+    main()
