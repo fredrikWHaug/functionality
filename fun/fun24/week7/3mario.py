@@ -5,7 +5,7 @@ def get_height():
     while True:
         try:
             height = int(input('Enter an integer between 1 and 8: '))
-            if 1 <= height <= 1:
+            if 1 <= height <= 8:
                 return height
         except ValueError:
             pass
@@ -18,3 +18,11 @@ def print_pyramid(height):
         hashes = '#' * (i + 1)
         print(spaces + hashes)
 
+# main function
+def main():
+    height = get_height()
+    print_pyramid(height)
+
+# main execution
+if __name__ == '__main__':
+    main()
